@@ -9,26 +9,11 @@ public class Main
     public static void main(String[] args)
     {
         //For #1 Requirement:
+        System.out.println("\n~~For Requirement #1~~");
         showPossibleCombinationOfChickens(100.0, 100.0);
-        /*
-        double value = 5+(1.0/8.0);//(1.0/3.0);
-        double tempval = 1.0/value;
-        String tempo = String.valueOf(tempval);
-        System.out.println("Value: " + value);
-        System.out.println("Tempo: " + tempo);
-        if(value%1!=0)
-        {
-            System.out.println("A double/floating value: " + (value%1));
-            System.out.println("Decrement By: " + (Math.floor(value)+ Math.floor(1/(value%1))));
-        }
-        else
-        {
-            System.out.println("Decrement by 1");
-        }*/
-
 
         //For #2 Requirement:
-        System.out.println();
+        System.out.println("\n~~For Requirement #2~~");
         showPossibleVehicleForTransportation();
     }
 
@@ -42,9 +27,6 @@ public class Main
         hen.setChickenPrice(3);
         Chicks chicks = new Chicks();
         chicks.setChickenPrice((1.0/3.0));
-        //System.out.println("Cock: " + cock.getPossibleChickenCount(budgetValue));
-        //System.out.println("Hen: " + hen.getPossibleChickenCount(budgetValue));
-        //System.out.println("Chicks: " + chicks.getPossibleChickenCount(budgetValue));
 
         double cockItr;
         double henItr;
